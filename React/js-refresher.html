@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*--------------
+        let keyword declaring variable will not override same variables.
+        const will be a constant variables
+        var allows to override same variables
+    --------------------*/
+
+        //let a= 34;
+        let a= "this is string";
+        let b = 87*9
+        console.log(b);
+
+        /*-------Data Types---------
+                Numbers
+                Boolean
+                Object
+                String
+                undefined
+                null        */
+
+        /*------------
+            functions
+        ---------------*/
+
+        function helo(){
+            console.log("hello there !!!");
+        }
+
+        /*-----
+            object
+            -----*/
+        let m ={
+            r: 1,
+            s: 2,
+            t: 3
+        }
+
+        /* ---- with function ---*/
+        let x ={
+            r: 1,
+            s: 2,
+            t: 3,
+            func: function myfu(num){
+                console.log("the number is "+ num);
+            }
+        }
+        
+        /*---- events---
+            document.addEventListner()
+        ---------------*/
+        document.addEventListener('click', function click(){
+            console.log("clicked");
+            c = confirm("are you sure?");
+            // alert(c)
+        })
+
+        /*-----
+            loops
+        --------------*/
+        /*
+            for (let index = 0; index < array.length; index++) {
+                const element = array[index];
+            
+            }
+        */
+
+        /*
+            array.forEach(element => {
+            
+            });
+        */
+
+        /*----------------
+            call back functions
+        -------------------*/
+            setTimeout(() => {
+                console.log("set time out hai ye")
+            }, 3000);
+        
+            setInterval(() => {
+                console.log("set interval hai ye")
+            }, 3000);
+        
+        /*---------------*/
+
+
+    </script>
+    <h1>Revising JavaScript for react</h1>
+</body>
+</html>
