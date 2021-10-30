@@ -5,5 +5,5 @@ Starting with React JS as a aim followed by MERN stack and will also try to lear
 
 Will upload daily progress here.
 
-# DAY1:
-
+# Day1:
+completed a JavaScript refresher, installation of various components for react including node js and created first react app using create-react-app.
