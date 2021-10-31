@@ -9,4 +9,5 @@ Will upload daily progress here.
 completed a JavaScript refresher, installation of various components for react including node js and created first react app using create-react-app.
 
 >Day 2:
+introduction to JSX and its components
 
