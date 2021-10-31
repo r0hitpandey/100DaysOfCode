@@ -15,3 +15,17 @@ npm install -g create-react-app
 
 npx create-react-app app-name
 ```
+>### JSX
+It is a tag syntax in 'app.js' where all the code is written (HTML, CSS, JS)
+
+>### variables 
+* declaration of variable is same as JavaScript.
+* We use variables inside JSX by wrapping it in curly braces {}
+
+```bash
+let name = "Robin";
+
+<h1>Hello! {name}</h1>
+```
+
+* We can put any valid JavaScript expression
