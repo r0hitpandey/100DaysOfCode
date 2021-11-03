@@ -11,3 +11,5 @@ completed a JavaScript refresher, installation of various components for react i
 >Day 2:
 introduction to JSX and its components
 
+> Day 3:
+Adding Bootstrap or we can say web components to your react app
