@@ -53,7 +53,7 @@ script
     ></script>
     
 ```
-> ###Adding React Component
+> ### Adding React Component
 we create React component by creating seperate .js file and adding the component function. 
 
 ```
@@ -78,7 +78,7 @@ export default function Navbar(props) {
 }
 ```
 
-*When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object “props”.
+* When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object “props”.
 
 ```bash
 // in component file 
