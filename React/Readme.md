@@ -10,7 +10,7 @@ This folder contains daily learning.
 * By installing npm
 * By using npx
 
-```bash
+```
 npm install -g create-react-app
 
 npx create-react-app app-name
@@ -22,7 +22,7 @@ It is a tag syntax in 'app.js' where all the code is written (HTML, CSS, JS)
 * declaration of variable is same as JavaScript.
 * We use variables inside JSX by wrapping it in curly braces {}
 
-```bash
+```
 let name = "Robin";
 
 <h1>Hello! {name}</h1>
@@ -36,7 +36,7 @@ Here we added bootstrap to our react app
 * added javaScript of Bootstrap
 to its 'index.html' file
 
-```bash
+```
 <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -56,38 +56,62 @@ script
 > ###Adding React Component
 we create React component by creating seperate .js file and adding the component function. 
 
-```bash
+```
 import react from 'react'
 export default function Navbar() {
     return (
-);
+    )
+}
 ```
 
 >### Props and PropsTypes
 * props are basically artibitary inputs to your component fuction
 * propTypes is the type of input you want user to provide (string, number etc.)
 
-```bash
+```
 import React from 'react'
 import PropTypes from 'prop-types'
 
 export default function Navbar(props) {
     return (
-);
+     )
+}
 ```
 
 *When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object “props”.
 
 ```bash
 // in component file 
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+export default function Navbar(props) {
+    return (
+    <a href="/">
+       {props.title}
+    </a>
+    )
 }
 
 // in app.js file
-const element = <Welcome name="Sara" />;
-ReactDOM.render(
-  element,
-  document.getElementById('root')
-);
+function App() {
+  return (
+      <Navbar title="TextUtils" />
+  )
+}
+```
+
+> ### Default proptypes
+* provides default value to your propa
+```
+Navbar.defaultProps = {
+    title: 'set title here',
+    AboutText:'about text here'
+}
+```
+
+>### isRequired propTypes
+* ask user to input otherwise will show errors
+```
+Navbar.propTypes = {
+    title: PropTypes.string.isRequired,
+    AboutText: PropTypes.string.isRequired
+}
 ```
