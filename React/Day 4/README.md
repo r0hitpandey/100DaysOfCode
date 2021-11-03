@@ -1,4 +1,4 @@
-# Day3
+# Day 4
  >learned about:
  * Making react components
  * props and proptypes
