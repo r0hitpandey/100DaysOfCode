@@ -115,3 +115,11 @@ Navbar.propTypes = {
     AboutText: PropTypes.string.isRequired
 }
 ```
+> ### State in React
+state is basically the form of a component at some point of time
+
+> ### useState working
+helps to set text to a state
+```
+const [text, setText] = useState(0);
+```
