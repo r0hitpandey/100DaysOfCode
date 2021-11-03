@@ -13,3 +13,7 @@ introduction to JSX and its components
 
 > Day 3:
 Adding Bootstrap or we can say web components to your react app
+
+> Day 4:
+Creating React Components.
+learning props and propsTypes.
