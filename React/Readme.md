@@ -53,3 +53,41 @@ script
     ></script>
     
 ```
+> ###Adding React Component
+we create React component by creating seperate .js file and adding the component function. 
+
+```bash
+import react from 'react'
+export default function Navbar() {
+    return (
+);
+```
+
+>### Props and PropsTypes
+* props are basically artibitary inputs to your component fuction
+* propTypes is the type of input you want user to provide (string, number etc.)
+
+```bash
+import React from 'react'
+import PropTypes from 'prop-types'
+
+export default function Navbar(props) {
+    return (
+);
+```
+
+*When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object “props”.
+
+```bash
+// in component file 
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+// in app.js file
+const element = <Welcome name="Sara" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
