@@ -1,3 +1,2 @@
-#Day 2
-
-INTRODUCTION TO JSX
+# Day 2
+> introduction to JSX
